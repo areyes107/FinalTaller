@@ -5,7 +5,7 @@ use DBAgenda2018391;
 create table Categorias(
 	codigoCategoria int not null auto_increment,
 	nombre varchar(50) not null,
-	estado bit default 1 not null,
+	estado boolean default true,
 	primary key PK_CodigoCategoria(codigoCategoria)
  );
 
