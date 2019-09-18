@@ -50,3 +50,5 @@ create table Notas(
     constraint FK_Notas_Categorias foreign key (codigoCategoria) references Categorias(codigoCategoria)
 );
  
+ 
+ select * from categorias;
